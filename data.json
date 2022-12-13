@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "names":"karate",
+        "name": "کاراته",
+        "coach": "مجید پاشایی",
+        "img": "../..public/autor.png"
+    },
+    {
+        "id": 2,
+        "names":"koungfu",
+        "name": "کونگ فو",
+        "coach": "حسین کریمی",
+        "img": "../..public/trainer-3.jpg"
+    },
+    {
+        "id": 3,
+        "names":"kickbox",
+        "name": "کیک بوکسینگ",
+        "coach": "وحید وثوق",
+        "img": "../..public/trainer-1.jpg"
+    }
+]

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/IRANSans\(FaNum\).ttf');
+    src:  /* IE6-8 */ url('./fonts/IRANSans(FaNum)_Light.ttf') format('truetype'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans(FaNum)_Medium.ttf') format('truetype'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans(FaNum)_UltraLight.ttf') format('truetype');
+}
+
+:root{
+    --bg1: #ff4b5a;
+    --bg1hover: #ff4b5a7a;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.font-iran{
+    font-family: 'IRANSans';
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.w100{
+    width: 100%;
+}
+
+.h100{
+    height: 100%;
+}
+
+
+.tex-al-r{
+    text-align: right;
+}
+.cur-p{
+    cursor: pointer;
+}
+
+.over-h{
+    overflow: hidden;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+
+/* /////////////////////////////////    padding start     ////////////////////// */
+
+
+.padx50{
+    padding: 0 50px;
+}
+.pady10{
+padding: 10px 0;
+}
+/* /////////////////////////////////    padding end     ////////////////////// */
+
+/* /////////////////////////////////   display start    ////////////////////////////// */
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dis-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis-col{
+display: flex;
+flex-direction: column;
+}
+.gap5{
+    gap: 5px;
+}
+.gap10{
+    gap: 10px;
+}
+.gap30{
+    gap: 30px;
+}
+.wrop{
+    flex-wrap:wrap;
+}
+/* /////////////////////////////////       display end      /////////////////*/
+/* /////////////////////////////////       font start      /////////////////*/
+
+
+.font14{
+    font-size: 14px;
+}
+.font12{
+    font-size: 12px;
+}
+/* /////////////////////////////////       font end     /////////////////*/
